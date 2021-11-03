@@ -320,7 +320,7 @@ namespace TwitchPredictionsBG
                 return true;
             }
             
-            return await GetStreamInfoForCurrentUser() == null;
+            return await GetStreamInfoForCurrentUser() != null;
         }
 
         public bool IsPredictionInProgress(Prediction prediction)

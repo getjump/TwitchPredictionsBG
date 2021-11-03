@@ -130,7 +130,7 @@ namespace TwitchPredictionsBG
 
         public string Author => "getjump";
 
-        public Version Version => new Version(0, 0, 1, 1);
+        public Version Version => new Version(0, 0, 1, 2);
 
         public MenuItem MenuItem => null;
     }
